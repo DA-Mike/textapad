@@ -2,7 +2,9 @@ import { Workbox } from 'workbox-window';
 import Editor from './editor';
 import './database';
 import '../css/style.css';
+const logo = require('../images/logo.png');
 
+document.getElementsByClassName('logo').src = logo;
 const main = document.querySelector('#main');
 main.innerHTML = '';
 
