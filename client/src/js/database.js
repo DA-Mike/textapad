@@ -1,5 +1,6 @@
 import { openDB } from 'idb';
 
+// initiates db
 const initdb = async () =>
   openDB('jate', 1, {
     upgrade(db) {
